@@ -1,0 +1,64 @@
+.formcontato{
+    background-color: rgb(91, 88, 88);
+
+}
+.formcontato__title{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 10px
+}
+.formcontato__subtext{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.dos{
+    padding: 0px 0px 20px 0px;
+}
+.contacto__envio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.formcontato__form{
+    display: flex;
+    display: inline-grid;
+    width: 50%;
+    padding: 20px;
+}
+.formcontato__input{
+    padding: 2px;
+    margin: 2px;
+}
+.formcontato__textarea{
+    padding: 2px;
+    margin: 2px;
+}
+.formcontato__botao{
+    padding: 7px;
+ 
+}
+.formcontato__img{
+    width: 600px;
+    height: 200px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .formcontato__text{
+        text-align: center;
+        margin: 20px;
+    }
+    .contacto__envio{
+        flex-direction: column;
+    }
+    .formcontato__img{
+        width: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .formcontato__img{
+        width: auto;
+    }
+}

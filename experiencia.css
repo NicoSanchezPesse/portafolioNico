@@ -1,0 +1,40 @@
+.titulo__experiencia-gral{
+
+        text-align: center;
+        font-size: 2rem;
+        padding: 20px;
+}
+.experiencia__box{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.experiencia__imagen{
+    width: 500px;
+    height: 200px;
+}
+.experiencia__textos{
+    display: flow-root;
+    text-align: center;
+    padding: 40px;
+}
+
+.titulo__experiencia{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .experiencia__box{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .experiencia__box{
+        align-items: center;
+    }
+
+}

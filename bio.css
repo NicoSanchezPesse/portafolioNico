@@ -1,0 +1,19 @@
+.bio{
+    background-color: rgb(91, 88, 88);
+    color: white;
+    padding: 20px;
+
+}
+.sobre__mi{
+    display: flex;
+    font-size: 2rem;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.texto__bio{
+    text-align: center;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,38 @@
+.head__principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nombre{
+    display: flex;
+    align-items: center;
+}
+.navegador{
+    display: flex;
+    list-style: none;
+}
+.container__logo {
+    display: flex;
+}
+
+.head__enlace{
+    margin: 10px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+
+.head__principal{
+    display: flex;
+    flex-direction: column;
+}
+.navegador{
+    flex-flow: column;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+}
+    
+

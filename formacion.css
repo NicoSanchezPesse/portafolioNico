@@ -1,0 +1,46 @@
+.formacion{
+    background-color: rgb(91, 88, 88);
+}
+.titulo__formacion{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+}
+.formacion_academica{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.formacion__box{
+    width: 250px;
+    height: 300px;
+    background-color: beige;
+    margin: 25px;
+    display: inline-block;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(92, 92, 92);
+    text-align: center;
+    padding: 10px;
+
+}
+.imagen_formacion{
+    width: 100px;
+    height: 100px;
+   
+}
+.lista__formacion{
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .formacion_academica{
+        padding: 0;
+    }
+
+}
