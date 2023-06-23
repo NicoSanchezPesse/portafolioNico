@@ -12,7 +12,10 @@
 .experiencia__imagen{
     width: 500px;
     height: 200px;
+    border: solid black;
+    box-shadow: 10px 5px 5px  rgb(91, 88, 88);
 }
+
 .experiencia__textos{
     display: flow-root;
     text-align: center;
@@ -29,7 +32,10 @@
     .experiencia__box{
         flex-direction: column;
         align-items: center;
-
+    }
+    .experiencia__imagen{
+        width: auto;
+        align-self: normal;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
